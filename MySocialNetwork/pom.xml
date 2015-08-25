@@ -7,6 +7,7 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>MySocialNetwork Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -14,7 +15,21 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>3.2.14.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>7.0</version>
+		</dependency>
+
 	</dependencies>
+
 	<build>
 		<finalName>MySocialNetwork</finalName>
 	</build>
